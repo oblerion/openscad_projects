@@ -67,6 +67,11 @@ module interupteur(){
             translate([0,-30,-1]) rotate([-45,0,0]) cube([50,6,3],true);
             translate([-23.6,0,-1]) rotate([0,45,0])  cube([6,60,3],true);
             translate([23.6,0,-1]) rotate([0,-45,0])  cube([6,60,3],true);
+
+            translate([-23,-30,3]) rotate([0,0,45]) cube([3,10,10],true);
+            translate([-23,30,3]) rotate([0,0,45]) cube([10,3,10],true);
+            translate([23,-30,3]) rotate([0,0,45]) cube([10,3,10],true);
+            translate([23,30,3]) rotate([0,0,-45]) cube([10,3,10],true);
         }
         translate([17,0,-0.5]) rotate([0,45,0]) cube([5,12,3],true);
         translate([13,0,-0.5]) rotate([0,-45,0]) cube([5,12,3],true);
